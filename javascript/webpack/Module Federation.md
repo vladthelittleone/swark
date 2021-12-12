@@ -23,7 +23,11 @@ content: ✅
 - IFrames (проблемы с модальными окнами, проблемы с SEO, перезагрузка контента, проблемы с CPU),
 - Web Components (проблема с SSR, проблемы с SPA),
 - Linked Pages (на одном адресе — одно приложение, при переходе пользователь заново грузит ресурсы),
-- single-spa (сложность с подключением assets, при переходе пользователь заново грузит ресурсы, микрофронтенд в микрофронтенде — нет) 
+- Single-SPA (сложность с подключением assets, при переходе пользователь заново грузит ресурсы, микрофронтенд в микрофронтенде — нет) 
+- DLLPlugins (нужен ребилд при изменении отдельных микрофронтов)
+- Externals (нет решения для shared-зависимостей)
+
+Решение, которое решает проблему билда, web-перфоманса и shared-зависимостей - Module Federation.
 
 ## Module Federation
 
@@ -39,6 +43,14 @@ Module federation - это webpack-плагин, который позволяе
 
 Для SSR нужно использовать webpack, как браузер, только на стороне сервера.
 
+## ModuleFederationPlugin
+
+- exposes - модули, которые будут доступны потребителем,
+- remotes - объект, который описывает подключаемые из других контейнеров модули,
+- shared - описывает shared-модули.
+
+`singleton: true` - гарантирует, что во время выполнения создается только один экземпляр модуля.
+
 ### Дополнительно
 - [Павел Черторогов — Революция в микрофронтендах, module federation, Webpack 5](https://youtu.be/pcY8-pDGLkI),
-- [Module Federation in Webpack 5 - Tobias Koppers](https://youtu.be/gmUm7CTsNhk).
+- [Module Federation in Webpack 5 - Tobias Koppers](https://youtu.be/gmUm7CTsNhk) и [слайды](https://github.com/sokra/slides/blob/master/content/ModuleFederationWebpack5.md).
