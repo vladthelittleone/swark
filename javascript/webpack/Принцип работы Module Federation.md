@@ -26,6 +26,8 @@ content: ✅
 
 Приведем пример работы:
 
+![mfe-process](img/mfe-process.png)
+
 1. Первым делом подключается основная webpack-сборка;
 2. И параллельно происходи подключение remoteEntry.js - логики с Remote;
 3. Подгрузка chunk'ов для App;
@@ -39,8 +41,6 @@ content: ✅
 11. Асинхронно отдаем нужный **компонент** в App.
    
 Scope - это по сути прокси объект для Remote, с помощью которого мы асинхронно получаем доступ к модулям.
-
-![mfe-process](img/mfe-process.png)
 
 ## Основные блоки
 
@@ -68,7 +68,7 @@ Scope - это по сути прокси объект для Remote, с пом�
     - Приложение _"лочит"_ версии всех контейнеров;
     - Есть возможность выкатывать staging/production и т.д.
     
-### Дополнительно
+## Дополнительно
 - [Павел Черторогов — Революция в микрофронтендах, module federation, Webpack 5](https://youtu.be/pcY8-pDGLkI) и [слайды](https://nodkz.github.io/conf-talks/talks/2020.10.26-webpack-federation/index.html#/),
 - [Module Federation in Webpack 5 - Tobias Koppers](https://youtu.be/gmUm7CTsNhk) и [слайды](https://github.com/sokra/slides/blob/master/content/ModuleFederationWebpack5.md),
 - [Webpack 5 Module Federation - A look at the source code and how it works](https://www.youtube.com/watch?v=HDRIvks0yyk).
