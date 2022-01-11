@@ -1,7 +1,7 @@
 ---
 title: Что такое CRDT?
 keywords: crdt
-level: senior
+complexity: 3
 links: ✅
 content: ❗
 ---

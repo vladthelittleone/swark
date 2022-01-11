@@ -1,7 +1,7 @@
 ---
 title: Расскажите о принципах работы Module Federation в Webpack?
 keywords: module federation
-level: senior
+complexity: 3
 links: ✅
 content: ✅
 ---

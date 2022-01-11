@@ -1,7 +1,7 @@
 ---
 title: Что вы знаете о Module Federation?
 keywords: module federation
-level: middle
+complexity: 2
 links: ✅
 content: ✅
 ---

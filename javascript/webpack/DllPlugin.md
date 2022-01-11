@@ -1,7 +1,7 @@
 ---
 title: Что вы знаете о DllPlugin?
 keywords: dllplugin
-level: senior
+complexity: 3
 links: ❗
 content: ✅
 ---
