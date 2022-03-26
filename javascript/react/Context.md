@@ -1,10 +1,10 @@
 ---
-title: Расскажите о Context?
-keywords: context
+title: Расскажите о HTTP, HTTP 2?
+keywords: http
 complexity: 2
 links: ✅
 content: ❗
 ---
 
 ### Дополнительно
-- [Исходники Context API + Redux vs Context](https://www.youtube.com/watch?v=_E8wT2IQ7FU).
+- [Введение в HTTP/2](https://developers.google.com/web/fundamentals/performance/http2?hl=ru).
