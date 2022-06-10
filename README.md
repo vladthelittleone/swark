@@ -7,6 +7,9 @@
 ### Distributed-computing
 - [Что такое CRDT?](/architecture/distributed-computing/CRDT.md)
 
+### Methodologies
+- [Слышали ли вы о The Twelve-Factor App?](/architecture/methodologies/12%20Factor%20App.md)
+
 ### Microservices
 - [Расскажите об использовании базах данных в микросервисной архитектуре?](/architecture/microservices/%D0%91%D0%B0%D0%B7%D1%8B%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%B2%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0%D1%85.md)
 - [Как сохранить консистентность в случае ошибки в одном из микросервисов?](/architecture/microservices/%D0%9A%D0%BE%D0%BD%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B2%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0%D1%85.md)
@@ -117,4 +120,3 @@
 
 ## Testing
 - [В чем разница позитивного и негативного тестирования?](/testing/Positive%20%D0%B8%20Negative.md)
-
