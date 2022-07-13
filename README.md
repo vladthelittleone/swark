@@ -25,17 +25,18 @@
 ### Sql
 - [Что такое JOIN?](/database/sql/JOIN.md)
 
-## Devops
-
-### K8s
-- [Что такое Headless Service?](/devops/k8s/Headless%20Service.md)
-
 ## Infrastructure
+
+### Docker
+- [Как настроить non root пользователя в Docker и зачем?](/infrastructure/docker/Non%20Root.md)
 
 ### K8s
 - [Как работает DNS в Kubernetes?](/infrastructure/k8s/DNS.md)
+- [Что такое Headless Service?](/infrastructure/k8s/Headless%20Service.md)
 - [Что такое Ingress?](/infrastructure/k8s/Ingress.md)
 - [Что такое Kubernetes?](/infrastructure/k8s/Kubernetes.md)
+- [Что такое PVC, VC, StorageClass?](/infrastructure/k8s/PVC,%20PV,%20StorageClass.md)
+- [Что такое Liveness и Readiness probes?](/infrastructure/k8s/Probes.md)
 
 ### Nginx
 - [Расскажите про модуль map?](/infrastructure/nginx/map.md)
