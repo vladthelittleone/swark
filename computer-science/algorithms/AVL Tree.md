@@ -35,3 +35,4 @@
 ## Полезные ссылки
 
 - https://habr.com/ru/articles/150732/
+- https://people.ksp.sk/~kuko/gnarley-trees/AVL.html
